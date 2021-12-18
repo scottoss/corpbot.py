@@ -22,10 +22,10 @@ class Music(commands.Cog):
 		self.loop     = {}
 		self.data     = {}
 		# Get the Lavalink info as needed
-		self.ll_host = bot.settings_dict.get(os.environ.get('lavalink_host'))
-		self.ll_port = bot.settings_dict.get(os.environ.get('lavalink_port'))
-		self.ll_uri  = bot.settings_dict.get(os.environ.get('lavalink_rest_uri'))
-		self.ll_pass = bot.settings_dict.get(os.environ.get('lavalink_password'))
+		self.ll_host = bot.settings_dict.get("138.197.12.18")
+		self.ll_port = bot.settings_dict.get("2333")
+		self.ll_uri  = bot.settings_dict.get("http://138.197.12.18:2333")
+		self.ll_pass = bot.settings_dict.get("youshallnotpass")
 		self.ll_id   = bot.settings_dict.get("TEST")
 		self.ll_reg  = bot.settings_dict.get("lavalink_region","us_central")
 		global Utils, DisplayName
